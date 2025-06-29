@@ -29,7 +29,6 @@ curl -X POST http://localhost:8000/process_data/ \
 - Swagger-документация (автоматически генерируется FastAPI): ✅ [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## Отклонение от требований задачи
-```
+###
 Используется pydantic-settings >= 2.0.0 вместо pydantic v1.x, так как проект работает на Python 3.12, с которым pydantic v1.x несовместим. BaseSettings начиная с pydantic v2 вынесен в отдельный пакет pydantic-settings, поэтому используется именно он.
-```
 
